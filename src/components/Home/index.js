@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import e from '../../assets/images/e (1).png'
 import './index.scss'
-// import AnimatedLetters from '../AnimatedLetters'
-import Logo from './Logo'
+import AnimatedLetters from '../AnimatedLetters'
+// import Logo from './Logo'
 import Loader from 'react-loaders'
 import me2 from "../../assets/images/IMG_7306.JPG"
 
@@ -45,13 +45,13 @@ const Home = () => {
           <span className={`${letterClass} _13`}>I</span>
           <span className={`${letterClass} _14`}>'m</span>
           <img src={e} alt="developer" />
-          <div
+          <AnimatedLetters
             letterClass={letterClass}
             strArray={nameArray}
             idx={15}
           />
           <br />
-          <div
+          <AnimatedLetters
             letterClass={letterClass}
             strArray={jobArray}
             idx={22}
@@ -65,7 +65,7 @@ const Home = () => {
           CONTACT ME
         </Link>
       </div>
-      <Logo/>
+      {/* <Logo/> */}
     </div>
     <Loader type='pacman'/>
     </>
