@@ -27,7 +27,7 @@ return (
             </nav>
             <ul>
                 <li>
-                    <a href="htt" target='blank' rel='nonrefere'>
+                    <a href="https://www.linkedin.com/in/emmanuel-onuabuguchi-976a9a20a/" target='blank' rel='nonrefere'>
                         <FontAwesomeIcon icon={faLinkedin} color='#4d4d4d'/>
                     </a>
                 </li>
