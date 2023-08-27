@@ -60,10 +60,12 @@ const Home = () => {
         <div className='img-container'>
           <img src={me2} alt="" />
         </div>
+        <div className='move-down'>
         <h2>Frontend Developer / Backend Developer with Nodejs </h2>
         <Link to="contact" className="flat-button">
           CONTACT ME
         </Link>
+        </div>
       </div>
       {/* <Logo/> */}
     </div>
